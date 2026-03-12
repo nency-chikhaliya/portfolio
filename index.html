@@ -1,42 +1,499 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>My Developer Portfolio</title>
-<style>
-body{
-font-family: Arial;
-background:#f5f5f5;
-text-align:center;
-}
-.container{
-margin-top:50px;
-}
-h1{
-color:#333;
-}
-.project{
-background:white;
-padding:20px;
-margin:20px;
-border-radius:10px;
-}
-</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nency Chikhaliya | Product Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 </head>
 
 <body>
 
-<div class="container">
+    <!-- Hacker Background -->
 
-<h1>Hi, I'm Nency 👋</h1>
-<p>Web Developer</p>
+    <div id="particles-js"></div>
 
-<h2>Skills</h2>
-<p>JavaScript | Node.js | Express | MongoDB | React | AWS</p>
+    <!-- HEADER -->
 
-<h2>Contact</h2>
-<p>Email: nainapatel058@gmail.com</p>
+    <header>
 
-</div>
+        <nav>
+
+            <h2 class="logo">
+                <img src="images/n_logo-removebg-preview.png" alt="Nency Logo">
+            </h2>
+
+            <ul>
+
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+        <h1>Nency Chikhaliya</h1>
+        <div class="typing">
+            <span id="typing"></span>
+        </div>
+        <p>
+            Software engineer specializing in backend architecture, API development, and scalable web applications.
+            Experienced in leading development teams and delivering high-impact platforms including AI tools, marketing
+            automation systems, and mobile backends.
+        </p>
+
+        <a href="resume/nency_c_resume_2026.pdf" class="btn" target="_blank" download>
+            Download Resume
+        </a>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <h2>About Me</h2>
+        <div class="section_about_bg">
+            <p>Hello there! 👋🏻</p>
+
+            <p>
+                Result-oriented <strong>Product Development Lead</strong> with 6+ years of experience
+                in designing and building scalable web applications, backend architectures,
+                and full-stack platforms. My expertise lies in <strong>backend development,
+                    API architecture, database design, and system scalability</strong>.
+            </p>
+
+            <p>
+                I have successfully delivered <strong>50+ production-grade products</strong>
+                across industries including marketing automation, marketplaces,
+                mobile applications, SaaS platforms, and custom business management
+                systems. My work focuses on building reliable, high-performance
+                systems that support real business operations and large-scale users.
+            </p>
+
+            <p>
+                Technically, I specialize in <strong>Node.js, MERN stack, PHP, Laravel
+                    technologies</strong>, along with designing RESTful APIs, microservice-based
+                architectures, and optimized database structures using
+                <strong>MySQL and MongoDB</strong>. I also have strong experience in
+                cloud deployment, server management, and production hosting
+                using <strong>AWS and cPanel environments</strong>.
+            </p>
+
+            <p>
+                I have built and architected <strong>AI-powered platforms</strong> that automate
+                marketing communication, lead generation, and campaign management
+                across multiple channels including <strong>Email, WhatsApp, and social media</strong>.
+                These systems leverage intelligent automation to improve engagement,
+                optimize workflows, and enable data-driven decision making.
+            </p>
+
+            <p>
+                Currently, I lead product development initiatives where I manage
+                engineering teams, design system architecture, plan product roadmaps,
+                and deliver scalable solutions from concept to deployment while
+                maintaining both <strong>legacy platforms and modern full-stack systems</strong>.
+            </p>
+
+            <p>
+                I am passionate about solving complex engineering challenges,
+                building automation-driven products, and creating technology
+                solutions that help businesses grow efficiently.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <!-- Core Technologies -->
+
+            <div class="skill">
+                <i class="devicon-javascript-plain"></i>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-nodejs-plain"></i>
+                <p>Node.js</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-express-original"></i>
+                <p>Express.js</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-react-original"></i>
+                <p>React.js</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-php-plain"></i>
+                <p>PHP</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-symfony-original"></i>
+                <p>Symfony</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-object-group"></i>
+                <p>UI Development</p>
+            </div>
+
+            <!-- Databases -->
+
+            <div class="skill">
+                <i class="devicon-mongodb-plain"></i>
+                <p>MongoDB</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-mysql-plain"></i>
+                <p>MySQL</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <p>Database Design</p>
+            </div>
+
+            <!-- Backend Engineering -->
+
+            <div class="skill">
+                <i class="fa-solid fa-code"></i>
+                <p>REST API Development</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-sitemap"></i>
+                <p>System Architecture</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-network-wired"></i>
+                <p>Microservices</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-layer-group"></i>
+                <p>Scalable Systems</p>
+            </div>
+
+            <!-- DevOps -->
+
+            <div class="skill">
+                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                <p>AWS</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-docker-plain"></i>
+                <p>Docker</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-code-branch"></i>
+                <p>CI/CD</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-server"></i>
+                <p>Server Deployment</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-terminal"></i>
+                <p>Linux</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-globe"></i>
+                <p>cPanel Hosting</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-git-plain"></i>
+                <p>Git</p>
+            </div>
+
+            <!-- AI / Automation -->
+
+            <div class="skill">
+                <i class="fa-solid fa-robot"></i>
+                <p>AI Automation</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-bolt"></i>
+                <p>Workflow Automation</p>
+            </div>
+
+            <!-- Leadership / Management -->
+
+            <div class="skill">
+                <i class="fa-solid fa-people-group"></i>
+                <p>Team Leadership</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-diagram-project"></i>
+                <p>Project Planning</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-chart-line"></i>
+                <p>Product Development</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-arrows-spin"></i>
+                <p>Agile Development</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-list-check"></i>
+                <p>Sprint Planning</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section">
+
+        <h2>Work Experience</h2>
+
+        <div class="experience-box">
+
+            <h3>Lead Product Development</h3>
+            <span>Camp Automation Pvt Ltd | 2022 - 2026</span>
+
+            <p>
+                Camp specializes in product automation solutions, delivering scalable platforms for marketing and
+                business process automation.
+            </p>
+            <ul>
+                <li>Leading development team across Symfony and MERN stack products</li>
+                <li>Designed AI-powered-Aida platform architecture, database, and backend</li>
+                <li>Built scalable APIs and MongoDB integrations with development team</li>
+                <li>Managing feature enhancements and product stability</li>
+                <li>Handling smooth release cycles and deployment workflows</li>
+                <li>Ensuring code quality through reviews and basic unit testing</li>
+                <li>Collaborating with stakeholders on product strategy and planning</li>
+            </ul>
+
+        </div>
+
+        <div class="experience-box">
+
+            <h3>Senior Product Developer</h3>
+            <span>Aphonic Solutions | 2019 - 2022</span>
+
+            <p>
+                Aphonic solutions company focused on web and mobile applications.
+            </p>
+            <ul>
+                <li>Developed backend services and REST APIs for web & mobile apps</li>
+                <li>Built admin panels and business management tools</li>
+                <li>Delivered 50+ projects using PHP, Laravel, Node.js</li>
+                <li>Worked with MySQL and MongoDB database systems</li>
+                <li>Managed deployment and production releases</li>
+                <li>Ensuring code quality through reviews and basic unit testing</li>
+                <li>Collaborated with frontend and mobile development teams</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+            <button class="nav prev">&#10094;</button>
+            <div class="project-slider">
+                <div class="projects">
+                    <div class="project">
+                        <h3>1. Aida Jet - AI Newsletter Builder</h3>
+                        <p>React + NodeJS + MongoDB</p>
+                        <p>AI-powered newsletter creation platform that automatically writes, designs, and schedules
+                            newsletters based on user prompts. The system uses multiple AI agents to generate content,
+                            organize sections, and automate delivery workflows, helping businesses create engaging
+                            newsletters faster. The platform also provides analytics dashboards to track performance and
+                            subscriber engagement.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Designed and developed backend architecture and database schema</li>
+                            <li>Built APIs for newsletter generation, scheduling, and analytics</li>
+                            <li>Implemented AI-based content generation and section organization</li>
+                            <li>Developed dashboard for newsletter insights and engagement metrics</li>
+                            <li>Integrated CRM/email tools for subscriber management</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>2. Camp - Marketing Automation Platform</h3>
+                        <p>Core PHP + Symfony + MySQL</p>
+                        <p>Camp is an all-in-one Go-To-Market (GTM) marketing platform that unifies multiple marketing
+                            and sales channels into a single system. It enables businesses to manage campaigns, leads,
+                            and communications across email, SMS, social media, and partnerships without using multiple
+                            external tools.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Developed backend modules and APIs for campaign management</li>
+                            <li>Designed database structure for multi-channel marketing workflows</li>
+                            <li>Built admin dashboards for managing campaigns and leads</li>
+                            <li>Implemented integrations for email, SMS, and marketing automation</li>
+                            <li>Optimized performance for large-scale campaign processing</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>3. Camp - Mobile App</h3>
+                        <p>React Native + PHP + MySQL</p>
+                        <p>Mobile version of the Camp platform enabling sales teams to manage meetings, communications,
+                            and campaign interactions on the go. The app connects with the main marketing system through
+                            APIs to sync leads, schedules, and notifications.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Developed REST APIs for mobile application integration</li>
+                            <li>Implemented secure authentication and data synchronization</li>
+                            <li>Designed backend services for meeting and communication management</li>
+                            <li>Optimized APIs for fast mobile data retrieval</li>
+                            <li>Ensured seamless integration with the main Camp platform</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>4. Gujarat Living - Classified Marketplace</h3>
+                        <p>Laravel + MongoDB</p>
+                        <p>Online marketplace platform for buying and selling products across Gujarat, similar to OLX.
+                            The application supports user listings, real-time chat between buyers and sellers, and
+                            category-based product discovery.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Developed backend system for product listings and user management</li>
+                            <li>Implemented real-time chat functionality between buyers and sellers</li>
+                            <li>Designed database structure for categories, listings, and transactions</li>
+                            <li>Built admin panel for monitoring users and marketplace activities</li>
+                            <li>Optimized search and filtering for better product discovery</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>5. Cut & Brush - Salon Booking Platform</h3>
+                        <p>Laravel + MySQL</p>
+                        <p>Online appointment booking system allowing users to schedule salon services with available
+                            vendors based on time slots. The platform supports both website and mobile applications
+                            through a unified API system.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Developed appointment scheduling system with slot management</li>
+                            <li>Built REST APIs for website and mobile app integration</li>
+                            <li>Designed database structure for vendors, services, and bookings</li>
+                            <li>Implemented vendor dashboard for managing schedules and services</li>
+                            <li>Optimized booking flow and availability management</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>6. Json DJ – Music Streaming Platform</h3>
+                        <p>PHP + MySQL</p>
+                        <p>Music platform where artists can upload tracks and users can listen globally. The system
+                            supports content management, streaming, and localization features such as time-zone-based
+                            content delivery and multi-currency support.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Designed backend architecture for music uploads and streaming</li>
+                            <li>Developed APIs for mobile and web application integration</li>
+                            <li>Implemented multi-currency and time-zone based content delivery</li>
+                            <li>Built admin panel for managing artists, tracks, and categories</li>
+                            <li>Deployed and hosted the platform on cPanel infrastructure</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>Other Projects</h3>
+                        <p>Various Technologies & Integrations</p>
+                        <p>Worked on multiple web and mobile backend projects across different domains including gaming,
+                            e-commerce, and custom business applications. Built scalable backend systems, REST APIs, and
+                            admin dashboards to support various business operations, user management, and third-party
+                            integrations.</p>
+                        <p><b>My Contributions:</b></p>
+                        <ul>
+                            <li>Gaming platforms with user progress, rewards, and level management systems</li>
+                            <li>E-commerce platforms with product catalog, orders, and admin dashboards</li>
+                            <li>Payment gateway integrations (Stripe, Razorpay, PayPal)</li>
+                            <li>Custom REST APIs for mobile applications</li>
+                            <li>User authentication, role-based access, and security implementation</li>
+                            <li>Third-party integrations such as email services, SMS gateways, and analytics</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <button class="nav next">&#10095;</button>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+
+        <h2>Contact</h2>
+
+        <p>Email : nainapatel058@gmail.com</p>
+        <p>Phone : +91 6354868519</p>
+        <p>Location : Bengaluru</p>
+
+    </section>
+
+    <!-- BACK TO TOP -->
+
+    <button id="topBtn">↑</button>
+
+    <footer>
+
+        <p>© 2026 Nency Chikhaliya</p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>

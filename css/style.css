@@ -1,0 +1,239 @@
+/*  Black Theme
+:root {
+    --primary-color: #6366F1;
+    --secondary-bg: #111111;
+    --header-bg: #0A0A0A;
+    --body-bg: #050505;
+    --footer-bg: #0A0A0A;
+    --text-color: #F5F5F5;
+    --button-bg: #4F46E5;
+    --typing-text-color: #818CF8;
+} */
+
+/*  Blue Theme  */
+
+:root {
+    --primary-color: #3B82F6;     /* accent blue */
+    --secondary-bg: #111827;      /* section background */
+    --header-bg: #0B1120;         /* header */
+    --body-bg: #020617;           /* main background */
+    --footer-bg: #0B1120;         /* footer */
+    --text-color: #E5E7EB;        /* main text */
+    --button-bg: #2563EB;         /* button */
+    --typing-text-color: #60A5FA; /* typing effect */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    margin: 0;
+    background: var(--body-bg);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    height: 90px;
+    background: var(--header-bg);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.logo img{
+    height:50px;   /* adjust as needed */
+    width:auto;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    width: 60%;
+    text-align: center;
+    margin: 3% 20%;
+}
+
+.typing {
+    font-size: 22px;
+    margin-top: 10px;
+    color: var(--typing-text-color);
+}
+
+.btn {
+    background: var(--button-bg);
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* SECTIONS */
+
+.section {
+    padding: 60px 10%;
+    scroll-margin-top: 90px;
+}
+
+.section_about_bg {
+    background-color: var(--secondary-bg);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* SKILLS */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill {
+    background: var(--secondary-bg);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.skill p {
+    font-size: 14px;
+}
+
+.skill i {
+    font-size: 26px;
+}
+
+/* EXPERIENCE */
+
+.experience-box {
+    background: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS */
+
+.project-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-slider {
+    overflow: hidden;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.project {
+    min-width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.project div {
+    background: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project {
+    background: var(--secondary-bg);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project h3 {
+    font-size: 16px;
+}
+
+.project p,
+.project ul,
+.project li {
+    font-size: 13px;
+}
+
+.nav {
+    background: var(--header-bg);
+    border: none;
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* BACK TO TOP */
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: var(--button-bg);
+    border: none;
+    padding: 12px 16px;
+    color: var(--text-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: var(--footer-bg);
+}
+
+/* BACKGROUND */
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    /* FIX: allow clicks through particles */
+}
